@@ -1,0 +1,26 @@
+# Arduino build outputs
+*.bin
+*.elf
+*.hex
+*.o
+*.d
+*.obj
+build/
+sketch/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*~
+.clangd/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials and secret files
+credentials.h
+secrets.h
+*.local
